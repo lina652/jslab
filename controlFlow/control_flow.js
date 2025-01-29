@@ -23,5 +23,5 @@ console.log("User Message:", userMessage);
 let userType = "subscriber";
 let userCategory;
 console.log("User Category:", userCategory);
-let isAuthenticated = true;7let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
