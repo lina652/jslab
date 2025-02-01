@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <script defer src="feedback.js"></script>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email"><br><br>
+
+    <label for="job">Job:</label>
+    <input type="text" id="job"><br><br>
+
+    <label for="designation">Designation:</label>
+    <input type="text" id="designation"><br><br>
+
+    <label for="productType">Product Type:</label>
+    <input type="text" id="productType"><br><br>
+
+    <label for="feedbackText">Feedback:</label>
+    <textarea id="feedbackText"></textarea><br><br>
+
+    <!-- New Textarea for Experience -->
+    <label for="userExperince">Share Your Experience:</label>
+    <textarea id="userExperince"></textarea><br><br>
+
+    <button id="submitBtn">Submit Feedback</button>
+
+    <h3>User Submitted Information:</h3>
+    <div id="userInfo" style="display: none;">
+        <p><strong>Name:</strong> <span id="userName"></span></p>
+        <p><strong>Age:</strong> <span id="userAge"></span></p>
+        <p><strong>Email:</strong> <span id="userEmail"></span></p>
+        <p><strong>Job:</strong> <span id="userJob"></span></p>
+        <p><strong>Designation:</strong> <span id="userDesignation"></span></p>
+        <p><strong>Product Type:</strong> <span id="userProductChoice"></span></p>
+        <p><strong>Feedback:</strong> <span id="userFeedback"></span></p>
+        <p><strong>Experience:</strong> <span id="userExperienceDisplay"></span></p>
+    </div>
+</body>
+</html>
